@@ -2,7 +2,7 @@ spring:
   application:
     name: UserProvider
   datasource:
-    url: jdbc:mysql://localhost:3306/jpa-0909-003?serverTimezone=UTC
+    url: jdbc:mysql://db1:3306/jpa-0909-003?serverTimezone=UTC
     username: root
     password: 123
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -11,8 +11,5 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-server:
-  port: 9009
 
-
-version: UserProvider01-update
+version: UserProvider01
